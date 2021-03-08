@@ -55,7 +55,7 @@ public class client {
 			String receiverEmail = systemInput.readLine();
 			System.out.println("Please type in the subject.");
 			String subject = systemInput.readLine();
-			System.out.println("Please type in the email content (Single "." on a line indicates end of content).");
+			System.out.println("Please type in the email content (Single'.' on a line indicates end of content).");
 			while(true){
 				contentLine = systemInput.readLine();
 				if(contentLine.contentEquals(".")){
